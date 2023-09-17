@@ -31,7 +31,6 @@ const MainLogic = ({
   const [planets, setPlanets] = useState<PlanetsInterface[]>([]);
   const [distance, setDistance] = useState<number[]>([0, 0, 0, 0]);
   const [vehicles, setVehicles] = useState<VehiclesInterface[]>([]);
-  const [loadingVehicles, setLoadingVehicles] = useState<boolean>(true);
   const [selectedVehicles, setSelectedVehicles] = useState<String[]>([]);
   const [selectedDestinations, setSelectedDestinations] = useState<string[]>(
     []
@@ -57,10 +56,8 @@ const MainLogic = ({
   };
 
   const getPlanetsAndVehicles = async () => {
-    setLoadingVehicles(true);
     getPlanets();
     getVehicles();
-    setLoadingVehicles(false);
     handleReset(false);
   };
 
