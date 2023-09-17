@@ -170,22 +170,20 @@ const MainLogic = ({
           <TimeContainer timeTaken={timeTaken} />
         </div>
       </div>
-      <div>
-        <div className="btn_container">
-          <button
-            className={
-              selectedDestinations.length !== 4 || selectedVehicles.length !== 4
-                ? "findDisabled find"
-                : "find"
-            }
-            disabled={
-              selectedDestinations.length !== 4 || selectedVehicles.length !== 4
-            }
-            onClick={findFalcone}
-          >
-            Find Falcone!
-          </button>
-        </div>
+      <div className="btn_container">
+        <button
+          className={
+            selectedDestinations.length !== 4 || selectedVehicles.length !== 4
+              ? "findDisabled find"
+              : "find"
+          }
+          disabled={
+            selectedDestinations.length !== 4 || selectedVehicles.length !== 4
+          }
+          onClick={findFalcone}
+        >
+          Find Falcone!
+        </button>
       </div>
     </div>
   );

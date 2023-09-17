@@ -22,7 +22,7 @@ const ResultContainer = ({ result, totalTimeTaken }: SuccessPropsInterface) => {
           </p>
         </div>
       </div>
-      <div className="btn_container">
+      <div>
         <button className="result_btn" onClick={() => navigate("/")}>
           Start Again
         </button>
