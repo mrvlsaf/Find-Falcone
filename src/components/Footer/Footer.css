@@ -1,0 +1,22 @@
+.footer h3 {
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer h3 a {
+  text-decoration: none;
+}
+
+.footer h3 span {
+  color: cyan;
+  font-weight: normal;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.footer h3 span:hover {
+  text-decoration: underline;
+}

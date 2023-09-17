@@ -1,0 +1,8 @@
+.mainContainer {
+  background: url(../../assets/space.jpg) center/cover no-repeat;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
