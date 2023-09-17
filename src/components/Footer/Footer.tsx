@@ -5,7 +5,11 @@ const Footer = () => {
     <div className="footer">
       <h3>
         Devraj Singh{" -"}
-        <a href="https://www.geektrust.com/coding/detailed/space" target="_blank">
+        <a
+          href="https://www.geektrust.com/coding/detailed/space"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <span>Finding Queen</span>
         </a>
       </h3>
