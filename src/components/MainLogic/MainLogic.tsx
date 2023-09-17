@@ -127,6 +127,10 @@ const MainLogic = ({
       setSelectedDestinations([]);
       setSpeed([0, 0, 0, 0]);
       setDistance([0, 0, 0, 0]);
+      setVehicle1("");
+      setVehicle2("");
+      setVehicle3("");
+      setVehicle4("");
       getPlanetsAndVehicles();
     }
   }, [reset]);
